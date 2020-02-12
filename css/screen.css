@@ -28,6 +28,7 @@ input{
 
 @media(min-width:800px){
 body{
+	background-color:#bccad6;
 	float:none;
 	width:100%;
 }
