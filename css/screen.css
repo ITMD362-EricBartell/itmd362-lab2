@@ -1,35 +1,36 @@
 body{
-  background-color:#bccad6;
+  background-color:#8d9db6;
 }
 fieldset{
-  background-color:#8d9db6;
+  background-color:#bccad6;
   height:100px;
-  border:6px dashed white;	
+  border:6px dashed white;
+  width: 80%;	
 }
-h1{
+
+label,h1{
   text-align:center;
-  font-family:Geneva; 
-  font-size:20px; 
-  font-weight:600;
-  color:white;
-}
-label{
-  text-align:center;
-  font-family:Geneva; 
+  font-family: 'Source Sans Pro', sans-serif;
   font-size:12px; 
   font-weight:600;
-  color:white;
   display:block;
+  color:white;
 }
-input{
-  border-width:2px;
-  border-color:white;
+h1{
+  text-align:left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:36px; 
+  font-weight:600;
+  color:black;
 }
 
 @media(min-width:800px){
-body{
-	background-color:#bccad6;
-	float:none;
-	width:100%;
+fieldset{
+  float:none;
+  width:100%;
+}
+label, input{
+  padding: 12px;
+  width:100%;
 }
 }
