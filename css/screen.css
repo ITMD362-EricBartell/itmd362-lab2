@@ -4,14 +4,14 @@ body{
 fieldset{
   background-color:#bccad6;
   height:100px;
-  border:6px dashed white;
+  border:2px white;
   width: 80%;	
 }
 
 label,h1{
   text-align:center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:12px; 
+  font-size:18px; 
   font-weight:600;
   display:block;
   color:white;
@@ -23,14 +23,24 @@ h1{
   font-weight:600;
   color:black;
 }
+input,textarea{
+  width:100%;
+}
+#submit{
+  border:0;
+  background-color:#8d9db6
+}
+}
 
 @media(min-width:800px){
 fieldset{
   float:none;
   width:100%;
+  padding: 0px;
 }
 label, input{
-  padding: 12px;
+  padding: 36px;
   width:100%;
+  font-size:24px;
 }
 }
