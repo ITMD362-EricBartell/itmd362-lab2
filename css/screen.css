@@ -5,8 +5,7 @@ fieldset{
   background-color:#bccad6;
   border:2px white;
   width: 80%;
-  margin: 24px;
-  padding: 12px;	
+  margin: 24px;	
 }
 label,h1{
   text-align:left;
@@ -21,13 +20,15 @@ h1{
   color:black;
 }
 input,textarea{
-  width:100%;
+  width:80%;
   font-family:'Source Sans Pro', sans-serif;
 }
 #submit{
   border:0;
   background-color:#8d9db6;
-  padding: 12px
+  padding: 12px;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:18px; 
 }
 }
 
