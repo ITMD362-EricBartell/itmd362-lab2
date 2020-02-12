@@ -1,49 +1,56 @@
 body{
-  background-color:#8d9db6;
+  background-color: #8d9db6;
 }
 fieldset{
-  background-color:#bccad6;
-  border:2px white;
+  background-color: #bccad6;
+  vertical-align: center
+  border: 2px white;
   width: 80%;
-  margin: 24px;	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 label,h1{
-  text-align:left;
-  font-family:'Source Sans Pro', sans-serif;
-  font-size:18px; 
-  font-weight:600;
-  display:block;
-  color:white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px; 
+  font-weight: 600;
+  display: block;
+  color: white;
   margin: 8px;
 }
 h1{
-  font-size:36px; 
-  color:black;
+  font-size: 36px; 
+  color: black;
 }
 input,textarea{
-  width:80%;
-  font-family:'Source Sans Pro', sans-serif;
+  width: 80%;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
 }
 #submit{
-  border:0;
-  background-color:#8d9db6;
+  border: 0;
+  background-color: #8d9db6;
   padding: 6px;
   margin: 12px;
-  font-family:'Source Sans Pro', sans-serif;
-  font-size:18px;
-  font-weight:600; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 600; 
+}
+#submit:hover{
+  background-color: #a2b9bc;	
 }
 }
 
-@media(min-width:800px){
+@media(min-width: 800px){
 fieldset{
-  float:none;
-  width:100%;
+  float: none;
+  width: 100%;
   padding: 0px;
 }
 label, input{
   padding: 36px;
-  width:100%;
-  font-size:24px;
+  width: 100%;
+  font-size: 24px;
 }
 }
