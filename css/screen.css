@@ -21,6 +21,7 @@ label,h1{
 h1{
   font-size: 36px; 
   color: black;
+  padding: 12px;
 }
 input,textarea{
   width: 80%;
