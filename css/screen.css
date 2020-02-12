@@ -28,6 +28,10 @@ input,textarea{
   font-family: 'Source Sans Pro', sans-serif;
   display: block;
   margin: 12px;
+  padding-left: auto;
+  padding-right: auto;
+ }
+
 #submit{
   border: 0;
   background-color: #8d9db6;
