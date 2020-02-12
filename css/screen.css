@@ -3,7 +3,7 @@ body{
 }
 fieldset{
   background-color: #bccad6;
-  vertical-align: center
+  vertical-align: center;
   border: 2px white;
   width: 80%;
   display: block;
@@ -42,7 +42,6 @@ input,textarea{
 }
 #submit:hover{
   background-color: #a2b9bc;	
-}
 }
 
 @media(min-width: 800px){
